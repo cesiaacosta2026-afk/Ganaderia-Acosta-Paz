@@ -1,0 +1,6 @@
+{
+  "name": "Ganadera Élite",
+  "description": "Página web profesional y moderna para la venta de ganado de registro, engorda y pie de cría con catálogo interactivo y consultas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

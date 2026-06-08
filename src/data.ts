@@ -1,0 +1,137 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { Livestock } from './types';
+
+export const LIVESTOCK_ITEMS: Livestock[] = [
+  {
+    id: '1',
+    title: 'Toro Angus Negro Semental',
+    breed: 'Angus',
+    category: 'Toro',
+    ageMonths: 24,
+    weightKg: 850,
+    price: 4500,
+    image: 'https://images.unsplash.com/photo-1543162700-166297316335?auto=format&fit=crop&w=800&q=80',
+    description: 'Semental registrado con excelente desarrollo muscular, aplomos perfectos y gran docilidad. Ideal para cruzamiento industrial con fines de carne premium.',
+    origin: 'Rancho El Porvenir, Sector A',
+    genealogy: 'Padre: Elite Champion Blackstar / Madre: Queen Angus IV',
+    healthStatus: 'Acreditado libre de Brucelosis, Tuberculosis y Papiloma. Vacunación al día.',
+    purpose: 'Registro',
+    tagId: 'ANG-204'
+  },
+  {
+    id: '2',
+    title: 'Toro Brahman Blanco Premium',
+    breed: 'Brahman',
+    category: 'Toro',
+    ageMonths: 28,
+    weightKg: 910,
+    price: 5200,
+    image: 'https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=800&q=80',
+    description: 'Imponente ejemplar Brahman de gran alzada y pigmentación excepcional. Sumamente adaptado a climas ardientes y zonas tropicales con excelente ganancia de peso.',
+    origin: 'Hacienda La Gloria, Sector Norte',
+    genealogy: 'Padre: Manso Manso 311 / Madre: Miss Brahman Star 88',
+    healthStatus: 'Plan sanitario completo. Certificado reproductivo de fertilidad activa.',
+    purpose: 'Pie de Cría',
+    tagId: 'BRH-805'
+  },
+  {
+    id: '3',
+    title: 'Vaca Holstein Alta Producción',
+    breed: 'Holstein',
+    category: 'Vaca',
+    ageMonths: 32,
+    weightKg: 610,
+    price: 2800,
+    image: 'https://images.unsplash.com/photo-1546445317-29f4545e9d53?auto=format&fit=crop&w=800&q=80',
+    description: 'Vaca lechera en su segundo período de lactancia. Promedio actual de 38 litros diarios. Excelente conformación de ubre y pezones simétricos.',
+    origin: 'Lechería El Trébol, Valle Central',
+    genealogy: 'Padre: Goldwyn Milkmaster / Madre: Daisy Holstein 452',
+    healthStatus: 'Control estricto de mastitis negativo. Vacunada contra Leptospira y Rabia.',
+    purpose: 'Leche',
+    tagId: 'HOL-112'
+  },
+  {
+    id: '4',
+    title: 'Novillo Angus Rojo de Engorda',
+    breed: 'Angus',
+    category: 'Novillo',
+    ageMonths: 14,
+    weightKg: 420,
+    price: 1850,
+    image: 'https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=800&q=80',
+    description: 'Excelente prospecto para engorda intensiva o corral de finalización. Rápido desarrollo esquelético y magnífica asimilación de alimentos balanceados.',
+    origin: 'Praderas del Sur',
+    genealogy: 'Cruza de Angus Comercial Seleccionada',
+    healthStatus: 'Desparasitado interna y externamente hace 15 días. Vitaminas ADE aplicadas.',
+    purpose: 'Carne',
+    tagId: 'ANG-901'
+  },
+  {
+    id: '5',
+    title: 'Toro Charolais Francés de Registro',
+    breed: 'Charolais',
+    category: 'Toro',
+    ageMonths: 26,
+    weightKg: 950,
+    price: 5800,
+    image: 'https://images.unsplash.com/photo-1596733430284-f7437764b1a9?auto=format&fit=crop&w=800&q=80',
+    description: 'Gran campeón de pureza genética, color blanco crema impoluto. Longitud corporal fabulosa y lomo ancho. Aporta un peso de destete sumamente elevado a sus terneros.',
+    origin: 'Rancho La Estancia, Sector Alto',
+    genealogy: 'Padre: Royal De Bourgogne / Madre: Madame Charolais 12',
+    healthStatus: 'Certificación de hato libre por SENASA. Libre de defectos genéticos.',
+    purpose: 'Registro',
+    tagId: 'CHA-711'
+  },
+  {
+    id: '6',
+    title: 'Vaquilla Brangus Preñada',
+    breed: 'Brangus',
+    category: 'Vaquilla',
+    ageMonths: 18,
+    weightKg: 480,
+    price: 2950,
+    image: 'https://images.unsplash.com/photo-1605333396915-47ed6b68a00e?auto=format&fit=crop&w=800&q=80',
+    description: 'Excelente vaquilla de reemplazo, preñada de 3 meses por inseminación artificial de Toro Angus Campeón. Gran habilidad maternal garantizada.',
+    origin: 'Rancho El Porvenir, Sector B',
+    genealogy: 'Padre: Red Brangus General / Madre: Brangus Elite 45',
+    healthStatus: 'Vacunada para prevención de abortos reproductivos. Excelente estado corporal (3.5/5).',
+    purpose: 'Pie de Cría',
+    tagId: 'BRG-340'
+  },
+  {
+    id: '7',
+    title: 'Novillo Hereford Linea Pura',
+    breed: 'Hereford',
+    category: 'Novillo',
+    ageMonths: 16,
+    weightKg: 490,
+    price: 2100,
+    image: 'https://images.unsplash.com/photo-1527153857715-3908f2bac5f8?auto=format&fit=crop&w=800&q=80',
+    description: 'Novillo Hereford de media genética ideal para engorda a pasto. Su docilidad permite un manejo ágil en cualquier tipo de corral o potrero.',
+    origin: 'Valle de San Juan',
+    genealogy: 'Padre: Line One Hereford / Madre: Hereford Cow 80',
+    healthStatus: 'Vacunación Triple completa. Examen clínico óptimo.',
+    purpose: 'Carne',
+    tagId: 'HER-409'
+  },
+  {
+    id: '8',
+    title: 'Vaquilla Brahman Roja Jovén',
+    breed: 'Brahman',
+    category: 'Vaquilla',
+    ageMonths: 15,
+    weightKg: 410,
+    price: 2200,
+    image: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=800&q=80',
+    description: 'Hermosa vaquilla Brahman de capa roja viva, con excelente temperamento y feminidad. Altamente rústica, óptima para fundar hatos en ambientes calurosos.',
+    origin: 'Hacienda La Gloria, Sector Sabana',
+    genealogy: 'Padre: Red Sultan 50 / Madre: Miss Brahman Red 10',
+    healthStatus: 'Tuberculosis y Brucelosis Negativo de hato. Nutrición reforzada.',
+    purpose: 'Pie de Cría',
+    tagId: 'BRH-219'
+  }
+];
